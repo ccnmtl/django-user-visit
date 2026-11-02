@@ -9,3 +9,4 @@ poetry.lock
 test.db
 .idea/
 q
+dist/
