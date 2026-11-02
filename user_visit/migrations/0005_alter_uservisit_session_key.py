@@ -4,15 +4,16 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('user_visit', '0004_uservisit_browser_uservisit_device_uservisit_os'),
+        ("user_visit", "0004_uservisit_browser_uservisit_device_uservisit_os"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='uservisit',
-            name='session_key',
-            field=models.CharField(help_text='Django session identifier', max_length=255),
+            model_name="uservisit",
+            name="session_key",
+            field=models.CharField(
+                help_text="Django session identifier", max_length=255
+            ),
         ),
     ]
