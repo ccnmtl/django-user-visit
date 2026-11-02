@@ -72,7 +72,7 @@ class UserVisit(models.Model):
         default=timezone.now,
     )
     session_key = models.CharField(
-        help_text="Django session identifier", max_length=255
+        help_text="Django session identifier", max_length=1024
     )
     remote_addr = models.CharField(
         help_text=_lazy(
