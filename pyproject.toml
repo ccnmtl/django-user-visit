@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "django-user-visit"
-version = "2.2"
+version = "2.4"
 description = "Django app used to track user visits."
 license = "MIT"
 authors = ["YunoJuno <code@yunojuno.com>"]
-maintainers = ["YunoJuno <code@yunojuno.com>"]
+maintainers = ["CTL Dev Team <ctl-dev@columbia.edu>"]
 readme = "README.md"
 homepage = "https://github.com/yunojuno/django-user-visit"
 repository = "https://github.com/yunojuno/django-user-visit"

@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 2.4 (unreleased)
+## 2.4 (2026-11-02)
 
 * Add Django 6.1 support
 * Add Python 3.14 support
